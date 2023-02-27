@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
+
+:root {
+    --primary-color: rgb(50, 96, 156);
+    --primary-color-darker: rgb(34, 64, 104);
+    --secundary-color: rgb(255, 255, 255);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+}
+
+.container {
+    background: var(--secundary-color);
+    max-width: 640px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+    border-radius: 20px;
+}
+
+.calculadora {
+    width: 400px;
+}
+
+.display {
+    font-size: 2em;
+    width: 100%;
+    text-align: right;
+    box-shadow: 2px 2px 0px 1px rgb(97, 97, 97);
+    border-radius: 4px;
+}
+
+.btn {
+    width: 100%;
+    height: 50px;
+    font-size: 1em;
+    border: none;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    box-shadow: 2px 2px 1px rgb(97, 97, 97);
+    border-radius: 4px;
+}
+
+.btn:hover {
+    background-color: #a19f9f;
+}
+
+.btn:active {
+    background-color: #a19f9f;
+    transform: translateY(1px) translateX(1px);
+    box-shadow: 1px 1px 1px rgb(97, 97, 97)
+}
+
+.btn-eq {
+    background-color: rgb(114, 143, 230);
+}
+
+.btn-eq:hover {
+    background-color: rgb(82, 117, 223);
+}
